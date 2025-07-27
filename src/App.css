@@ -124,3 +124,14 @@ button:hover {
 .about h2 {
     margin-top: 0;
 }
+form {
+  display: block !important;
+}
+form input {
+    display: block !important;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 45px;
+  font-size: 16px;
+  border-radius: 5px;
+}

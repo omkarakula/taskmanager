@@ -1,11 +1,6 @@
 {
   "tasks": [
     {
-      "id": "a1b1",
-      "title": "Python",
-      "completed": false
-    },
-    {
       "id": "af60",
       "title": "Java",
       "completed": false
@@ -24,6 +19,37 @@
       "id": "b958",
       "title": "React Componets",
       "completed": false
+    },
+    {
+      "id": "e387",
+      "title": "web dev",
+      "completed": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 1,
+      "username": "Omkar",
+      "email": "omkar@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c580",
+      "username": "bittu",
+      "email": "bittu@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "53b8",
+      "username": "siddu",
+      "email": "sid@gmail.com",
+      "password": "1231233"
     }
   ]
 }

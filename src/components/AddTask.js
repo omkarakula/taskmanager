@@ -13,13 +13,13 @@ const AddTask = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="d-flex mb-3">
-      <input 
-        type="text" 
-        value={title} 
-        onChange={(e) => setTitle(e.target.value)} 
-        className="form-control me-2" 
-        placeholder="Add new task..." 
+    <form onSubmit={handleSubmit} className="mb-3">
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        className="form-control mb-2"
+        placeholder="Add new task..."
       />
       <button type="submit" className="btn btn-success">Add Task</button>
     </form>
